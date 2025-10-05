@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #444;
+  }
+  
+  header {
+    background-color: #fcefee;
+    max-width: 800px;
+    color: #444;
+    padding: 40px;
+    width: 100%;
+    margin: 70px auto;
+    text-align: center;
+    border-bottom: 1px solid #f3dfe2;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    border: 2px solid rgb(213, 213, 213);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    max-width: 800px;
+    width: 100%;
+    border: 2px solid rgb(213, 213, 213);
+  }
+  
+  .card {
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #444;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s ease;
+  }
+  
+  /* رنگ‌های پاستیلی */
+  .card1 { background-color: #ffe0e9; }
+  .card2 { background-color: #d0f4de; }
+  .card3 { background-color: #fef9c3; }
+  .card4 { background-color: #cce5ff; }
+  .card5 { background-color: #f3eac2; }
+  .card6 { background-color: #e0c3fc; }
+  .card7 { background-color: #ffd6a5; }
+  .card8 { background-color: #bae1ff; }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: #fcefee;
+    color: #999;
+    padding: 20px;
+    font-size: 0.9em;
+    border-top: 1px solid #f3dfe2;
+  }
